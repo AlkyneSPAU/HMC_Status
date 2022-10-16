@@ -1,0 +1,11 @@
+version: 1.0
+name: FirstPlugin
+main: com.hmc.status.Main
+author: Alkyne
+commands: 
+  hmc:
+    description: 服务器相关
+    usage: /hmc <functions>
+    permission: status.me
+    permission-message: (っ °Д °;)っ您没有权限使用此命令!
+  
